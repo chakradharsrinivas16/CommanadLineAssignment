@@ -10,7 +10,7 @@ IFS=$'\n'
 echo "Maximum in the array - "
 echo "${arr[*]}" | sort -nr | head -n1 #Sorting in reverse and fetch the first element
 echo "Minimum in the array - "
-echo "${arr[*]}" | sort -n | head -n1 # Sorting in reverse and fetch the first element
+echo "${arr[*]}" | sort -n | head -n1 # Sorting and fetch the first element
 
 # Method - 2
 # Using for loop to find the max and min element.
