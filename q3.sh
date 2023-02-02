@@ -9,7 +9,7 @@ function is_prime() {
     return
   fi
   # Loop from 2 to num/2 to verify its divisors
-  for (( i=2; i<$((num/2)); i++ ))
+  for (( i=2; i<$((num/2+1)); i++ ))
   do
     if [ $(($num%$i)) -eq 0 ]; then # if found it is not prime numer
       echo "$num is not a prime number."
