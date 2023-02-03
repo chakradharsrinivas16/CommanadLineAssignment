@@ -102,13 +102,9 @@ Text in Table.sh
 <img width="745" alt="Screenshot 2023-02-03 at 11 50 18 AM" src="https://user-images.githubusercontent.com/123494344/216527099-bc8b214d-bf93-4b9c-b615-986d0e3df72c.png">
 
 ### Question - 5
-Create a bash script that supports the following requirement.
-  - Create a folder ‘Assignment’.
-  - Create a file ‘File1.txt’ inside ‘Assignment’ Folder.
-  - Copy all the content of Table.sh(2nd script) in ‘File1.txt’ without using ‘cp’ and ‘mv’ command.
-  - Append the text Welcome to Sigmoid’ to the ‘File1.txt’ file.
-  - List all the directories and files present inside Desktop Folder.#### Apporach - 
-
+You have given an array. Using Bash script, print its length, maximum element and
+minimum element.
+		arr=( 2 3 4 1 6 7).
 #### Approach - 
 
 We have declared the array internally in the code, we have used the following commands to fetch the required result
