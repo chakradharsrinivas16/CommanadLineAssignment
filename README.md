@@ -47,13 +47,16 @@ exit 0
 
 ###### Scenorio - 1
 When no arguments are passed
+
 <img width="428" alt="Screenshot 2023-02-03 at 11 42 19 AM" src="https://user-images.githubusercontent.com/123494344/216525974-889702fc-31fa-4b95-bf5d-5c68063ffc78.png">
 ###### Scenorio - 2
 When 1 arguments is passed
+
 <img width="486" alt="Screenshot 2023-02-03 at 11 44 47 AM" src="https://user-images.githubusercontent.com/123494344/216526314-80d69a8c-ace4-42b8-8ef3-4e3a214497d2.png">
 
 ###### Scenorio - 3
 When more than 1 arguments are passed
+
 <img width="497" alt="Screenshot 2023-02-03 at 11 45 21 AM" src="https://user-images.githubusercontent.com/123494344/216526389-6bfd981f-ade6-4028-9250-739d69a6337a.png">
 
 ### Question - 3
@@ -90,9 +93,12 @@ We have used the following commands to meet the desired requirements and the fun
 
 #### Test run - 
 <img width="702" alt="Screenshot 2023-02-03 at 11 47 51 AM" src="https://user-images.githubusercontent.com/123494344/216526746-eb6ce515-6131-479f-907c-626e55e5a917.png">
-###### Text in File1.txt
+
+Text in File1.txt
+
 <img width="617" alt="Screenshot 2023-02-03 at 11 49 12 AM" src="https://user-images.githubusercontent.com/123494344/216526917-8a7678e4-8fc6-4b66-bf0d-b04b8448a392.png">
-###### Text in Table.sh
+Text in Table.sh
+
 <img width="745" alt="Screenshot 2023-02-03 at 11 50 18 AM" src="https://user-images.githubusercontent.com/123494344/216527099-bc8b214d-bf93-4b9c-b615-986d0e3df72c.png">
 
 ### Question - 5
