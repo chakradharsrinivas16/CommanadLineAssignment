@@ -28,20 +28,24 @@ Write a bash script (name Table.sh) to print the Table of a number by using a wh
 We verify whether any arguments have been passed, and if not, we issue an error and quit the programme with exit status 1. If not, we run a loop to print all the arguments passed, then another while loop on all the arguments, start a counter internally on the second while loop, increment it after each iteration, fetch the result, and repeat this internal loop for each element in the arguments list until the counter value is less than 10, at which point the programme ends.
 
 ```
-n=$1 # Intiliaing the first argument as n
-c=1 # Counter Variable
-echo "Given number - $n"
-echo "Table of $n:"
-# Using while loop to generate the table
-while [ $c -le 10 ] # while counter is less than 10
+i=1;
+j=$#;
+while [ $i -le $j ] 
 do
-  result=$(( $n * $c )) # Calculating the product
-  echo "$n x $c = $result" # Printing the product
-  c=$(( $c + 1 )) # Incrementing the counter
+	n=$1 # Intiliaing the first argument as n
+	c=1 # Counter Variable
+	echo "Table of $n:"
+	# Using while loop to generate the table
+	while [ $c -le 10 ] # while counter is less than 10
+	do
+	  result=$(( $n * $c )) # Calculating the product
+	  echo "$n x $c = $result" # Printing the product
+	  c=$(( $c + 1 )) # Incrementing the counter
+	done
+    shift 1;
+	i=$((i+1))
+	echo ""
 done
-
-exit 0
-
 ```
 #### Test run - 
 
