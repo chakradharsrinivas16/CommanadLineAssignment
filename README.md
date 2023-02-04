@@ -53,6 +53,7 @@ done
 When no arguments are passed
 
 <img width="428" alt="Screenshot 2023-02-03 at 11 42 19 AM" src="https://user-images.githubusercontent.com/123494344/216525974-889702fc-31fa-4b95-bf5d-5c68063ffc78.png">
+
 ###### Scenorio - 2
 When 1 arguments is passed
 
